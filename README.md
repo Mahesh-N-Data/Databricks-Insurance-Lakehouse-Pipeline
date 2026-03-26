@@ -1,4 +1,3 @@
-[README_databricks_insurance_lakehouse.md](https://github.com/user-attachments/files/26290623/README_databricks_insurance_lakehouse.md)
 # Databricks Insurance Lakehouse Pipeline
 
 An end-to-end **Databricks Lakehouse** project that processes **insurance policy and claims data** using a **Medallion architecture (Bronze / Silver / Gold)** with **Delta Lake**, **MERGE-based upserts**, **data quality checks**, and **watermark-driven incremental processing**.
