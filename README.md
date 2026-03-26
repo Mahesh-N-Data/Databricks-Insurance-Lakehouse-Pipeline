@@ -20,7 +20,8 @@ The goal of this project was not just to build a basic ETL flow, but to model th
 
 ## Architecture
 
-![Project Architecture](databricks_insurance_architecture.png)
+<img width="1800" height="1100" alt="databricks_insurance_architecture" src="https://github.com/user-attachments/assets/66e63a44-4667-40a6-934c-01e8108ed0d1" />
+
 
 ### High-Level Flow
 
