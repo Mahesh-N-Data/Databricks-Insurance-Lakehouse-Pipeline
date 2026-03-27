@@ -301,57 +301,31 @@ This project demonstrates practical data engineering patterns that are directly 
 
 ---
 
-## Suggested GitHub Screenshots
+## Screenshots
 
 Recommended screenshots to include in the repository:
 
 1. **Project notebook list**
-   - show all 6 Databricks notebooks
+  <img width="584" height="191" alt="image" src="https://github.com/user-attachments/assets/d14d11d2-80db-4940-9f68-0399b114be99" />
+
 
 2. **Bronze layer sample**
-   - `bronze_policy` or `bronze_claims`
-   - include metadata columns like `source_file`, `ingestion_ts`, `snapshot_date`
+ <img width="975" height="374" alt="image" src="https://github.com/user-attachments/assets/cd786c1a-62da-4590-9548-37ee3400ce63" />
+
 
 3. **Silver layer sample**
-   - `silver_policy` or `silver_claims`
-   - show curated/deduplicated data
+<img width="975" height="321" alt="image" src="https://github.com/user-attachments/assets/6ecd1860-49ba-42df-89c8-698d9b6b3651" />
 
 4. **Gold analytics output**
-   - `gold_claim_summary`
-   - show `claim_month`, `claim_type`, `claim_status`, `claim_count`, `total_claim_amount`
+<img width="975" height="811" alt="image" src="https://github.com/user-attachments/assets/13ea941d-3277-4201-9a25-83dbc7f86e1e" />
 
 5. **Quality report**
-   - show PASS checks from `quality_report`
+<img width="975" height="731" alt="image" src="https://github.com/user-attachments/assets/bef6c297-2fd7-48e5-be69-0b31cb41a2eb" />
+
 
 6. **Pipeline control table**
-   - show incremental run history in `pipeline_control`
+<img width="975" height="220" alt="image" src="https://github.com/user-attachments/assets/1efe0542-dcc4-450f-9e27-072c4a318ed4" />
 
-7. **Late-arriving update proof**
-   - optional but strong
-   - before/after view of a claim or policy updated in Silver after a Bronze append
 
 ---
 
-## Production Enhancements
-
-If this were extended to a production-grade version, the next improvements would be:
-
-- Auto Loader for Bronze ingestion
-- workflow orchestration
-- alerting / monitoring
-- richer audit metadata
-- secrets management
-- partition strategy tuning
-- automated CI/CD deployment
-
----
-
-## Resume / Interview Summary
-
-Built an end-to-end Databricks insurance Lakehouse pipeline using Bronze/Silver/Gold architecture, Delta MERGE upserts, data quality validation, and watermark-based incremental processing with late-arriving data handling.
-
----
-
-## Author
-
-**Mahesh N Data**
